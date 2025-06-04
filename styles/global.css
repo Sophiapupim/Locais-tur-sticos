@@ -30,16 +30,16 @@ h2 {
 }
 
 h1, h2, h3 {
-    color: --text-primary;
+    color: var(--text-primary);
 }
 
 h4 {
-    color: --text-secondary;
+    color: var(--text-secondary);
     font-size: 1.6rem
 }
 
 p {
-    color: --text-secondary;
+    color: var(--text-secondary);
 ;
 }
 
@@ -48,7 +48,7 @@ ul {
     font-weight: 700;
 
     li::marker {
-        color: --text-secondary;
+        color: var(--text-secondary);
 
     }
 }

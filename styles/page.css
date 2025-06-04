@@ -1,15 +1,28 @@
 #page {
     max-width: 1128px;
-    margin-inline: auto;
+    margin-inline:aut;
+
+    header {
+    img {
+        border-radius: 2.8rem;
+         margin-bottom: 2.4rem;
+        height: 66rem;
+    }
+    p {
+        font-style: italic;
+        text-align: center;
+    }
+    
 }
 
-header {
-    border-radius: 2.8rem;
-    margin-bottom: 2.4rem;
-    height: 66rem;
-}
+   .divider {
+    height: 1px;
+    background: var(--border-primary);
+    margin-block: 4rem;
+   }
 
-p {
-    font-style: italic;
-    text-align: center;
+   .amantes-hístoria {
+     margin-bottom: 6.4rem;
+   }
+
 }
